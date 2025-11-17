@@ -24,12 +24,12 @@
     .step.active { display: block; }
     .nav-buttons { display: flex; justify-content: space-between; margin-top: 20px; }
     .progress { height: 25px; margin-bottom: 20px; }
-    .progress-bar { background-color: #7b3fa0; font-weight: bold; }
+    .progress-bar { background-color: #7b3fa0bb; font-weight: bold; }
 </style>
 </head>
 <body>
 <div class="quiz-container">
-    <img src="https://raw.githubusercontent.com/NES-DEW/dew-img/refs/heads/main/dew/dew-signature.png" alt="Digital Education Logo" class="logo">
+    <img src="https://raw.githubusercontent.com/NES-DEW/dew-img/refs/heads/main/dew/dew-signature.png" alt="Digitally-enabled workforce team logo" class="logo">
     <h1>Digital Mindset Quiz</h1>
 
     <!-- Accessible Progress Bar -->
@@ -38,11 +38,11 @@
     </div>
 
     <form id="quizForm">
-        <!-- Step 1 -->
+
         <div class="step active" role="group" aria-labelledby="theme1-title" tabindex="-1">
             <h2 id="theme1-title" class="theme-title">Theme 1: Openness and agility vs. persistence</h2>
             <fieldset>
-                <legend>Q1: New digital developments? Count me in! I am always curious to see what’s next in the digital world.</legend>
+                <legend>Q1: New digital developments? Count me in! I am always curious to see what's next in the digital world.</legend>
                 <div class="likert-scale">
                     <label><input type="radio" name="q1" value="1" required> Strongly Disagree</label>
                     <label><input type="radio" name="q1" value="2"> Disagree</label>
@@ -52,7 +52,7 @@
                 </div>
             </fieldset>
             <fieldset>
-                <legend>Q2: When it comes to new digital solutions, I’m quick to adapt - embracing new ways of working is my kind of challenge.</legend>
+                <legend>Q2: When it comes to new digital solutions, I'm quick to adapt - embracing new ways of working is my kind of challenge.</legend>
                 <div class="likert-scale">
                     <label><input type="radio" name="q2" value="1" required> Strongly Disagree</label>
                     <label><input type="radio" name="q2" value="2"> Disagree</label>
@@ -66,11 +66,10 @@
             </div>
         </div>
 
-        <!-- Step 2 -->
         <div class="step" role="group" aria-labelledby="theme2-title" tabindex="-1">
             <h2 id="theme2-title" class="theme-title">Theme 2: Proactivity and entrepreneurial action orientation vs. reactivity and situation orientation</h2>
             <fieldset>
-                <legend>Q3: I’m always on the lookout for digital opportunities that can take our user experience to the next level.</legend>
+                <legend>Q3: I'm always on the lookout for digital opportunities that can take our user experience to the next level.</legend>
                 <div class="likert-scale">
                     <label><input type="radio" name="q3" value="1" required> Strongly Disagree</label>
                     <label><input type="radio" name="q3" value="2"> Disagree</label>
@@ -80,7 +79,7 @@
                 </div>
             </fieldset>
             <fieldset>
-                <legend>Q4: If there’s a bright idea that could make our services better, I’m first in line to test-drive it!</legend>
+                <legend>Q4: If there's a bright idea that could make our services better, I'm first in line to test-drive it!</legend>
                 <div class="likert-scale">
                     <label><input type="radio" name="q4" value="1" required> Strongly Disagree</label>
                     <label><input type="radio" name="q4" value="2"> Disagree</label>
@@ -95,11 +94,10 @@
             </div>
         </div>
 
-        <!-- Step 3 -->
         <div class="step" role="group" aria-labelledby="theme3-title" tabindex="-1">
             <h2 id="theme3-title" class="theme-title">Theme 3: Creativity and design motivation vs. process loyalty</h2>
             <fieldset>
-                <legend>Q5: I’m not afraid to question the status quo - if there’s a better way to deliver our services, I’m ready to explore it.</legend>
+                <legend>Q5: I'm not afraid to question the status quo - if there's a better way to deliver our services, I'm ready to explore it.</legend>
                 <div class="likert-scale">
                     <label><input type="radio" name="q5" value="1" required> Strongly Disagree</label>
                     <label><input type="radio" name="q5" value="2"> Disagree</label>
@@ -109,7 +107,7 @@
                 </div>
             </fieldset>
             <fieldset>
-                <legend>Q6: When old processes get in the way of innovation or a great user experience, I’m all for shaking things up and making things simpler.</legend>
+                <legend>Q6: When old processes get in the way of innovation or a great user experience, I'm all for shaking things up and making things simpler.</legend>
                 <div class="likert-scale">
                     <label><input type="radio" name="q6" value="1" required> Strongly Disagree</label>
                     <label><input type="radio" name="q6" value="2"> Disagree</label>
@@ -124,7 +122,6 @@
             </div>
         </div>
 
-        <!-- Step 4 -->
         <div class="step" role="group" aria-labelledby="theme4-title" tabindex="-1">
             <h2 id="theme4-title" class="theme-title">Theme 4: Customer-centeredness vs. task- and organization-centeredness</h2>
             <fieldset>
@@ -138,7 +135,7 @@
                 </div>
             </fieldset>
             <fieldset>
-                <legend>Q8: Feedback is like gold dust. I’m always listening to service users and frontline colleagues and turning their insights into action.</legend>
+                <legend>Q8: Feedback is like gold dust. I'm always listening to service users and frontline colleagues and turning their insights into action.</legend>
                 <div class="likert-scale">
                     <label><input type="radio" name="q8" value="1" required> Strongly Disagree</label>
                     <label><input type="radio" name="q8" value="2"> Disagree</label>
@@ -153,11 +150,10 @@
             </div>
         </div>
 
-        <!-- Step 5 -->
         <div class="step" role="group" aria-labelledby="theme5-title" tabindex="-1">
             <h2 id="theme5-title" class="theme-title">Theme 5: Criticism vs. harmony orientation</h2>
             <fieldset>
-                <legend>Q9: I encourage open conversations about what’s not working in our digital world - because honest discussions lead to the best solutions.</legend>
+                <legend>Q9: I encourage open conversations about what's not working in our digital world - because honest discussions lead to the best solutions.</legend>
                 <div class="likert-scale">
                     <label><input type="radio" name="q9" value="1" required> Strongly Disagree</label>
                     <label><input type="radio" name="q9" value="2"> Disagree</label>
@@ -167,7 +163,7 @@
                 </div>
             </fieldset>
             <fieldset>
-                <legend>Q10: For me, constructive feedback on our digital tools and services isn’t criticism - it’s the fuel for making things better.</legend>
+                <legend>Q10: For me, constructive feedback on our digital tools and services isn't criticism - it's the fuel for making things better.</legend>
                 <div class="likert-scale">
                     <label><input type="radio" name="q10" value="1" required> Strongly Disagree</label>
                     <label><input type="radio" name="q10" value="2"> Disagree</label>
@@ -182,11 +178,10 @@
             </div>
         </div>
 
-        <!-- Step 6 -->
         <div class="step" role="group" aria-labelledby="theme6-title" tabindex="-1">
             <h2 id="theme6-title" class="theme-title">Theme 6: Dealing openly with failure vs. avoiding failure</h2>
             <fieldset>
-                <legend>Q11: I welcome open conversations about what didn’t work in our digital projects - no finger-pointing, just lessons learned and progress made.</legend>
+                <legend>Q11: I welcome open conversations about what didn't work in our digital projects - no finger-pointing, just lessons learned and progress made.</legend>
                 <div class="likert-scale">
                     <label><input type="radio" name="q11" value="1" required> Strongly Disagree</label>
                     <label><input type="radio" name="q11" value="2"> Disagree</label>
@@ -222,7 +217,7 @@ const progressBar = document.getElementById('progressBar');
 const progressContainer = document.querySelector('.progress');
 
 function updateProgress() {
-    const percent = Math.round(((currentStep + 1) / steps.length) * 100);
+    const percent = Math.round(((currentStep) / (steps.length - 1)) * 100);
     progressBar.style.width = percent + '%';
     progressBar.textContent = percent + '%';
     progressContainer.setAttribute('aria-valuenow', percent);
@@ -260,11 +255,11 @@ document.getElementById('quizForm').addEventListener('submit', function(e) {
 
     let message = '';
     if (totalScore >= 12 && totalScore <= 29) {
-        message = "🌱 Developing Digital Mindset: You’re beginning your digital journey. You’re open to learning but may prefer familiar routines. Keep exploring and experimenting!";
+        message = "🌱 Developing Digital Mindset: You're beginning your digital journey. You're open to learning but may prefer familiar routines. Keep exploring and experimenting!";
     } else if (totalScore >= 30 && totalScore <= 45) {
-        message = "⚙️ Growing Digital Mindset: You’re adapting to digital ways of working and see value in innovation. Focus on being more proactive and open about digital experimentation.";
+        message = "⚙️ Growing Digital Mindset: You're adapting to digital ways of working and see value in innovation. Focus on being more proactive and open about digital experimentation.";
     } else if (totalScore >= 46 && totalScore <= 60) {
-        message = "🚀 Digital Mindset Champion: You embrace change, experiment fearlessly, and lead others through digital transformation. You’re a true role model for digital leadership.";
+        message = "🚀 Digital Mindset Champion: You embrace change, experiment fearlessly, and lead others through digital transformation. You're a true role model for digital leadership.";
     }
 
     const resultDiv = document.getElementById('result');
